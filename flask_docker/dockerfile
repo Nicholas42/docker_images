@@ -1,0 +1,5 @@
+FROM python:3
+MAINTAINER Nicholas Schwab "nics-lohr@gmx.de"
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
